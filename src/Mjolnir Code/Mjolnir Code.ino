@@ -414,7 +414,7 @@ byte SystemMode = SYSTEM_MODE_NORMAL;
 // Battery Controls - this needs to be adjusted for optomal perforance
 #define BATTERY_3S 3
 #define BATTERY_4S 4
-#define BATTERY_3S_MIN 11.1                       // 3S_Min volts = 9.6, thnk this should be 11.1
+#define BATTERY_3S_MIN 8.0                       // 3S_Min volts = 9.6, thnk this should be 11.1 
 #define BATTERY_3S_MAX 13.0                       // 3S_Max volts = 13.2
 #define BATTERY_4S_MIN 13.2                       // 4S_Min volts = 13.2 and this 14.8
 #define BATTERY_4S_MAX 16.8                       // 4S_Max volts = 16.8
