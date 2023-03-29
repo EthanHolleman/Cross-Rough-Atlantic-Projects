@@ -590,7 +590,7 @@ void setup() {
 
   //-------------------------------------------------------------------------------------
   
-  /*
+  
   //--------------------------- Setup ESC Stage 2 Output PIN 9 OC1A --------------------------
   Serial.println( F("Configuring PWM Ports") );
   pinMode( PIN_ESC_2, OUTPUT );
@@ -601,7 +601,7 @@ void setup() {
   TCCR1B = (1 << WGM13) | (1 << WGM12) | (1 << CS11);
   ICR1 = 40000;
   UpdatePWM( 1000 );            //this value gets updated by ProcessMainMotors
-  */
+
 
   //----------------------------------------------------------------------------
   // Setup Pusher Outputs
